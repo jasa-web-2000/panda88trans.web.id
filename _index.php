@@ -1,17 +1,19 @@
 <?php
 
-$domain = 'http://localhost/travel/panda88trans.web.id/';
-// $domain = 'https://zarabetafamtravel.web.id/';
-$brand = 'Panda 88 Trans Magelang';
+// $domain = 'http://localhost/travel/panda88trans.web.id/';
+$domain = 'https://panda88trans.web.id/';
+$brand = 'Panda 88 Trans';
 $logo = 'src/img/panda-88-trans.png';
 $logoPanjang = $logo;
-$title = $brand . " Magelang Terbaik No. 1";
-$desc = $brand . " menawarkan jasa travel Magelang dengan harga murah dan jadwal 24 jam";
+$title = $brand . " - Rute Travel sePulau Jawa";
+$desc = $brand . " menawarkan jasa travel dengan harga murah dan jadwal 24 jam";
 $telp = '0812-1575-1486';
 // $telp2 = '0822-4108-1699';
-$alamat = 'Jl. Lingkar Timur, Kec. Wangon, Kabupaten Banyumas, Jawa Tengah 53176';
+$alamat = 'F6GW+WQ8 Tampirkulon, Kabupaten Magelang, Jawa Tengah';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3955.6013413966716!2d109.063666982217!3d-7.50918439703721!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65659827148d7b%3A0xb64bfdf3603cdd01!2sJl.%20Lingkar%20Barat%2C%20Kec.%20Wangon%2C%20Kabupaten%20Banyumas%2C%20Jawa%20Tengah%2053176!5e0!3m2!1sid!2sid!4v1749219517794!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3955.4782259957997!2d110.24437137500217!3d-7.522700992490226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMzEnMjEuNyJTIDExMMKwMTQnNDkuMCJF!5e0!3m2!1sid!2sid!4v1749555076587!5m2!1sid!2sid';
+
+
 
 
 function res_telp($telp)
@@ -51,91 +53,51 @@ $menu = [
 
 
 $rute = [
-  "Travel Banyumas Semarang",
-  "Travel Banyumas Jogja",
-  "Travel Banyumas Pacitan",
-  "Travel Banyumas Klaten",
-  "Travel Banyumas solo",
-  "Travel Banyumas Pati",
-  "Travel Banyumas Tegal",
-  "Travel Banyumas Pemalang",
+  'Rute Travel Tangerang - Jogja - Brebes - Tegal - Pekalongan - Pemalang - Semarang - Weleri - Magelang - Secang - Jogja - Surabaya (PP)',
 
-  "Travel Banyumas Pengandaran",
-  "Travel Banyumas Tasik",
-  "Travel Banyumas Bandung",
-  "Travel Banyumas Garut",
-  "Travel Banyumas Majalengka",
+  'Rute Travel Tangerang - Jakarta - Terminal Poris - Terminal Kalideres - Terminal Grogol - Brebes - Tegal - Pemalang - Pekalongan - Batang - Semarang - Temanggung - Secang - Weleri - Magelang - Jogja (PP)',
 
-  "Travel Banyumas Jakarta",
-  "Travel Banyumas Depok",
-  "Travel Banyumas Bekasi",
-  "Travel Banyumas Cikarang",
-  "Travel Banyumas Bogor",
-  "Travel Banyumas Tangerang",
+  'Rute Travel Tangerang - Jakarta - Terminal Poris - Terminal Kalideres - Terminal Grogol - Brebes - Tegal - Pemalang - Pekalongan - Batang - Semarang - Surabaya - Terminal Bungur Asih (PP)',
 
-  "Travel Banyumas Soeta",
-  "Travel Banyumas YIA",
+  'Rute Travel Tangerang - Purwokerto - Purworejo - Penjagaan - Penanggungan - Cilacap - Kebumen - Kutoarjo - Jogja (PP)',
 
-  // 
+  'Rute Travel Bandara Soekarno-Hatta - Bandara Juanda Surabaya - Pelabuhan Tanjung Perak - Pelabuhan Tanjung Mas Semarang (PP)',
 
-  "Travel Semarang Banyumas",
-  "Travel Jogja Banyumas",
-  "Travel Pacitan Banyumas",
-  "Travel Klaten Banyumas",
-  "Travel solo Banyumas",
-  "Travel Pati Banyumas",
-  "Travel Tegal Banyumas",
-  "Travel Pemalang Banyumas",
+  'Rute Travel Magelang - Cilacap - Purwokerto - Aji Barang - Kebumen - Jepara - Kudus - Rembang - Semarang (PP)',
 
-  "Travel Pengandaran Banyumas",
-  "Travel Tasik Banyumas",
-  "Travel Bandung Banyumas",
-  "Travel Garut Banyumas",
-  "Travel Majalengka Banyumas",
-
-  "Travel Jakarta Banyumas",
-  "Travel Depok Banyumas",
-  "Travel Bekasi Banyumas",
-  "Travel Cikarang Banyumas",
-  "Travel Bogor Banyumas",
-  "Travel Tangerang Banyumas",
-
-  "Travel Soeta Banyumas",
-  "Travel YIA Banyumas",
-
+  'Rute Travel Surabaya - Malang - Ngawi - Nganjuk - Rembang - Solo - Boyolali - Jogja - Jakarta - Tangerang (PP)',
 
 ];
 
 $kota = [
   [
-    'Banyumas',
-    'banyumas.jpg',
-  ],
-  [
-    'Semarang',
-    'semarang.jpg',
+    'Magelang',
+    'magelang.jpg',
   ],
   [
     'Jakarta',
     'jakarta.jpg',
   ],
   [
-    'Jogja',
-    'jogja.jpg',
+    'Surabaya',
+    'surabaya.jpg',
+  ],
+  [
+    'Semarang',
+    'semarang.jpg',
   ],
 ];
 
 $galeri = [
   'grandmax.jpg',
-  'luxio.jpg',
-  'elf-short.jpg',
+  '1-bus.jpg',
+  'rute-tambahan.jpg',
   'elf-long.jpg',
   'bus-medium.jpg',
-  'luxio-2.jpg',
+  '2-bus.jpg',
 ];
 
 ?>
-
 <!DOCTYPE html>
 <html
   lang="id"
@@ -450,22 +412,22 @@ $galeri = [
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:text-base [&_h3]:text-slate-800  [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_h3]:line-clamp-1 [&_p]:line-clamp-3 [&_p]:my-3 [&_p]:text-[15px] [&_p]:opacity-85 [&_a]:bg-primary [&_a]:text-slate-100 [&_a]:rounded [&_a]:block [&_a]:text-center [&_a]:p-1">
+          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:text-base [&_h3]:text-slate-800  [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_h3]:line-clamp-1 [&_p]:my-3 [&_p]:text-[15px] [&_p]:opacity-85 [&_a]:bg-primary [&_a]:text-slate-100 [&_a]:rounded [&_a]:block [&_a]:text-center [&_a]:p-1">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
               <div class="">
                 <img
                   loading="lazy"
-                  src="<?= $domain . 'src/img/rute.jpg' ?>"
+                  src="<?= $domain . 'src/img/rute-panda-88-trans.jpg' ?>"
                   width="100%"
                   height="100%"
                   alt="<?= 'rute ' . $item ?>"
                   class="" />
                 <div class="">
-                  <h3 class="">
-                    <?= $item ?>
-                  </h3>
-                  <p>Pesan <?= $item ?> harga murah bisa negosiasi.</p>
+                  <!-- <h3 class=""> -->
+                  <!-- <?= $item ?> -->
+                  <!-- </h3> -->
+                  <p><?= $item ?></p>
                   <a href="<?= $link_whatsapp ?>">Pesan Travel</a>
                 </div>
               </div>
@@ -482,9 +444,9 @@ $galeri = [
       <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div class="col-span-full md:col-span-6">
-            <div class="w-full md:max-w-[500px]">
-              <video controls autoplay preload="none" class="w-full">
-                <source src="<?= $domain  ?>video/about.jpg" type="video/mp4">
+            <div class="max-w-[360px]">
+              <video controls autoplay class="w-full">
+                <source src="<?= $domain  ?>src/video/1.mp4" type="video/mp4">
               </video>
               <img
                 loading="lazy"
@@ -665,14 +627,14 @@ $galeri = [
             </p>
           </div>
           <div
-            class="grid grid-cols-12 sm:gap-x-6 gap-y-8 [&>*]:overflow-hidden [&>img]:cursor-pointer [&>img]:w-full [&>img]:object-cover [&>img]:rounded-xl [&>img]:shadow-lg [&>img]:h-72 [&>img]:transition-all [&>img]:duration-700 [&>img]:brightness-50 hover:[&>img]:brightness-90 [&>img]:col-span-full">
+            class="grid grid-cols-12 sm:gap-x-6 gap-y-8 [&>*]:overflow-hidden [&_img]:cursor-pointer [&_img]:w-full [&_img]:object-cover [&_img]:rounded-xl [&_video]:rounded-xl [&_img]:shadow-lg [&_img]:h-72 [&_img]:transition-all [&_img]:duration-700 [&_img]:brightness-50 hover:[&_img]:brightness-90 [&>*]:col-span-full">
             <?php if (count($galeri) > 0) : ?>
+              <video controls autoplay class="w-full !col-span-full">
+                <source src="<?= $domain  ?>src/video/1.mp4" type="video/mp4">
+              </video>
               <?php foreach ($galeri as $key => $item) : ?>
-                <img
-                  loading="lazy"
-                  width="100"
-                  height="100"
-                  src="<?= $domain . '/src/img/galeri/' . $item ?>"
+                <a href="<?= $domain . '/src/img/galeri/' . $item ?>"
+                  title="galeri <?= $key + 1 ?>"
                   class="<?php
                           if ($key == 0 || $key == 3) {
                             echo 'sm:!col-span-8';
@@ -681,8 +643,15 @@ $galeri = [
                           } elseif ($key == 4 || $key == 5) {
                             echo 'sm:!col-span-6';
                           }
-                          ?> [backdrop-filter:drop-shadow(2px_4px_6px_black)]"
-                  alt="galeri <?= $key + 1 ?>" />
+                          ?>">
+                  <img
+                    loading="lazy"
+                    width="100"
+                    height="100"
+                    src="<?= $domain . '/src/img/galeri/' . $item ?>"
+                    class="[backdrop-filter:drop-shadow(2px_4px_6px_black)]"
+                    alt="galeri <?= $key + 1 ?>" />
+                </a>
               <?php endforeach; ?>
             <?php endif; ?>
           </div>
@@ -702,7 +671,7 @@ $galeri = [
           </p>
         </div>
         <div
-          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-gradient-to-r [&_.user-testimoni_img]:from-blue-500 [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
+          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&_img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-gradient-to-r [&_.user-testimoni_img]:from-blue-500 [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
