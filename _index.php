@@ -630,11 +630,14 @@ $galeri = [
             class="grid grid-cols-12 sm:gap-x-6 gap-y-8 [&>*]:overflow-hidden [&_img]:cursor-pointer [&_img]:w-full [&_img]:object-cover [&_img]:rounded-xl [&_video]:rounded-xl [&_img]:shadow-lg [&_img]:h-72 [&_img]:transition-all [&_img]:duration-700 [&_img]:brightness-50 hover:[&_img]:brightness-90 [&>*]:col-span-full">
             <?php if (count($galeri) > 0) : ?>
               <video controls autoplay class="w-full !col-span-full">
-                <source src="<?= $domain  ?>src/video/1.mp4" type="video/mp4">
+                <source src="<?= $domain  ?>src/video/2.mp4" type="video/mp4">
               </video>
               <?php foreach ($galeri as $key => $item) : ?>
-                <a href="<?= $domain . '/src/img/galeri/' . $item ?>"
-                  title="galeri <?= $key + 1 ?>"
+                <img
+                  loading="lazy"
+                  width="100"
+                  height="100"
+                  src="<?= $domain . '/src/img/galeri/' . $item ?>"
                   class="<?php
                           if ($key == 0 || $key == 3) {
                             echo 'sm:!col-span-8';
@@ -643,15 +646,8 @@ $galeri = [
                           } elseif ($key == 4 || $key == 5) {
                             echo 'sm:!col-span-6';
                           }
-                          ?>">
-                  <img
-                    loading="lazy"
-                    width="100"
-                    height="100"
-                    src="<?= $domain . '/src/img/galeri/' . $item ?>"
-                    class="[backdrop-filter:drop-shadow(2px_4px_6px_black)]"
-                    alt="galeri <?= $key + 1 ?>" />
-                </a>
+                          ?> [backdrop-filter:drop-shadow(2px_4px_6px_black)]"
+                  alt=" galeri <?= $key + 1 ?>" />
               <?php endforeach; ?>
             <?php endif; ?>
           </div>
