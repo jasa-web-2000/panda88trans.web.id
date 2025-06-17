@@ -3,7 +3,7 @@
 // $domain = 'http://localhost/travel/panda88trans.web.id/';
 $domain = 'https://panda88trans.web.id/';
 $brand = 'Panda 88 Trans';
-$logo = 'src/img/panda-88-trans.png';
+$logo = 'src/img/panda-88-trans.jpg';
 $logoPanjang = $logo;
 $title = $brand . " - Rute Travel sePulau Jawa";
 $desc = $brand . " menawarkan jasa travel dengan harga murah dan jadwal 24 jam";
