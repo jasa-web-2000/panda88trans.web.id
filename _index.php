@@ -632,6 +632,9 @@ $galeri = [
               <video controls autoplay class="w-full !col-span-full">
                 <source src="<?= $domain  ?>src/video/2.mp4" type="video/mp4">
               </video>
+              <video controls autoplay class="w-full !col-span-full">
+                <source src="<?= $domain  ?>src/video/pendakian.mp4" type="video/mp4">
+              </video>
               <?php foreach ($galeri as $key => $item) : ?>
                 <img
                   loading="lazy"
